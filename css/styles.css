@@ -1,0 +1,665 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ------- siperior -------  */
+.superior {
+    background: url(../images/Fondo.png);
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+span {
+    color: #4BCAFF;
+}
+
+header {
+    background-color: #2C3338;
+    opacity: 0.7;
+    grid-column: 1/17;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.TitleHeader {
+    font-size: 140%;
+    color: white;
+    text-align: center;
+    grid-column: 1/4;
+}
+
+.buttons {
+    grid-column: 5/9;
+    height: 45%;
+    padding-top: 3%;
+}
+
+.buttons button {
+    font-size: 95%;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    width: 12%;
+    height: 75%;
+}
+
+.buttons button:hover {
+    color: #4BCAFF;
+    border: solid 2px #4BCAFF;
+}
+
+.down {
+    font-size: 202%;
+    grid-column: 3/17;
+    grid-row: 6/10;
+    text-align: center;
+    align-items: center ;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.first {
+    background-color: #2C3338;
+    opacity: 0.7;
+    height: 90%;
+    grid-column: 4/9;
+    grid-row: 5/7;
+}
+
+.second {
+    background-color: #2C3338;
+    opacity: 0.7;
+    height: 90%;
+    grid-column: 3/10;
+    grid-row: 7/9;
+}
+
+/* ------- superior -------  */
+
+.secondBlue {
+    width: 100%;
+    height: 40vh;
+    background-color: #4BCAFF;
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    color: white;
+}
+
+.txtSectionBlue h2 {
+    font-size: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.txtSectionBlue p {
+    font-size: 66%;
+    line-height: 150%;
+}
+
+.txtSectionBlue img {
+    width: 15%;
+}
+
+.coffee {
+    grid-column: 9/14;
+    grid-row: 4/5;
+}
+
+.instant {
+    grid-column: 15/20;
+    grid-row: 4/5;
+}
+
+.serious {
+    grid-column: 21/26;
+    grid-row: 4/5;
+}
+
+.frame {
+    grid-column: 27/32;
+    grid-row: 4/5;
+}
+
+/* ------------------- paintings ------------------  */
+.paintings {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.txtpaintings {
+    grid-column: 6/21;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+}
+
+.txtpaintings h2 {
+    grid-column: 1/5;
+    color: gray;
+    font-weight: 100;
+    position: relative;
+}
+
+.txtpaintings h2::after {
+    content: "";
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    border-bottom: solid 2px gray;
+    width: 41%;
+}
+
+.botones {
+    font-size: 100%;
+    height: 45%;
+    width: 120%;
+    border-color: transparent;
+    background-color: transparent;
+    color: gray;
+    font-weight: bold;
+}
+
+.botones:hover {
+    color: #4BCAFF;
+    border: solid 2px #4BCAFF;
+}
+
+.all {
+    grid-column: 18/19;
+}
+
+.panoramas {
+    grid-column: 20/22;
+    width: 170%;
+}
+
+.portraits {
+    grid-column: 24/26;
+    width: 150%;
+}
+
+.macro {
+    grid-column: 28/29;
+}
+
+.journal {
+    grid-column: 30/31;
+}
+
+.images {
+    grid-column: 6/21;
+    grid-row: 4/12;
+    display: grid;
+    grid-template-columns: repeat(35, 1fr);
+    grid-template-rows: repeat(76, 1fr);
+}
+
+.img1 {
+    background: url(../images/photo01.png);
+    grid-column: 1/9;
+    grid-row: 1/35;
+    background-size: cover;
+}
+
+.img2 {
+    background: url(../images/photo02.png);
+    grid-column: 10/18;
+    grid-row: 1/35;
+    background-size: cover;
+}
+
+.img3 {
+    background: url(../images/photo03.png);
+    grid-column: 19/27;
+    grid-row: 1/35;
+    background-size: cover;
+}
+
+.img4 {
+    background: url(../images/photo04.png);
+    grid-column: 28/36;
+    grid-row: 1/35;
+    background-size: cover;
+}
+
+.img5 {
+    background: url(../images/photo05.png);
+    grid-column: 1/9;
+    grid-row: 39/74;
+    background-size: cover;
+}
+
+.img6 {
+    background: url(../images/photo06.png);
+    grid-column: 10/18;
+    grid-row: 39/74;
+    background-size: cover;
+}
+
+.img7 {
+    background: url(../images/photo07.png);
+    grid-column: 19/27;
+    grid-row: 39/74;
+    background-size: cover;
+}
+
+.img8 {
+    background: url(../images/photo08.png);
+    grid-column: 28/36;
+    grid-row: 39/74;
+    object-fit: cover;
+}
+
+.filter {
+    filter: grayscale(100%);
+}
+
+/* ------------------- JustDefault ------------------  */
+
+.JustDefault {
+    width: 100%;
+    height: 65vh;
+    color: white;
+    background-color: #515F67;
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(33, 1fr);
+}
+
+.JustDefault h2 {
+    letter-spacing: 5px;
+    font-size: 155%;
+    grid-column: 11/25;
+    grid-row: 7/8;    
+    font-weight: 100;
+    position: relative;
+}
+
+.JustDefault h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: solid 2px white;
+    width: 12%;
+}
+
+.JustDefault p {
+    line-height: 150%;
+    font-size: 95%;
+    grid-column: 11/25;
+    grid-row: 10/22;
+}
+
+.visit {
+    grid-column: 11/14;
+    grid-row: 25/28;
+    height: 4vh;
+    background: transparent;
+    border: solid 2px black;
+}
+
+.imageVideo {
+    grid-column: 26/29;
+    grid-row: 8/33;
+}
+
+/* ------------------- twitter ------------------  */
+
+.twitter {
+    display: grid;
+    grid-template-columns: repeat(45, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    width: 100%;
+    height: 30vh;
+    background-color: #4BCAFF;
+    color: white;
+}
+
+.twitter h2 {
+    grid-column: 10/14;
+    grid-row: 5/6;
+    font-weight: 100;
+    position: relative;
+}
+
+.twitter h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: solid 2px white;
+    width: 30%;
+}
+
+.twitter p {
+    grid-column: 10/35;
+    grid-row: 8/11;
+    font-size: 135%;
+    letter-spacing: 1px;
+    line-height: 45px;
+    word-spacing: 3px;
+}
+
+.twitter img {
+    grid-column: 37/38;
+    grid-row: 5/6;
+}
+
+/* ------------------- jhonDoe ------------------  */
+
+.jhonDoe {
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(45, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    color: white;
+    background: url(../images/bg_whoIs.png);
+    background-size: cover;
+    line-height: 20px;
+    word-spacing: 3px;
+    font-size: 90%;
+}
+
+.jhonDoe h2 {
+    grid-column: 10/17;
+    grid-row: 7/8;
+    font-weight: 100;
+    position: relative;
+}
+
+.jhonDoe h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: solid 2px white;
+    width: 20%;
+}
+
+.bear {
+    grid-column: 10/24;
+    grid-row: 10/14;
+}
+
+.muffin {
+    grid-column: 10/24;
+    grid-row: 15/19;
+}
+
+.pudding {
+    grid-column: 25/38;
+    grid-row: 10/12;
+}
+
+.jhonDoe img {
+    height: 6.5vh;
+}
+
+.boxTwit {
+    grid-column: 25/26;
+    grid-row: 15/17;
+}
+
+.boxGoogle {
+    grid-column: 27/28;
+    grid-row: 15/19;
+}
+
+.boxBall {
+    grid-column: 29/30;
+    grid-row: 15/19;
+}
+
+.boxCoffee {
+    grid-column: 31/32;
+    grid-row: 15/19;
+}
+
+/* ------------------- testimonials ------------------  */
+
+.testimonials {
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(45, 1fr);
+    grid-template-rows: repeat(35, 1fr);
+    color: rgb(160, 157, 157);
+    line-height: 40px; 
+}
+
+.testimonials h2 {
+    grid-column: 10/15;
+    grid-row: 7/12;
+    font-weight: 100;
+    position: relative;
+}
+
+.testimonials h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: solid 2px rgb(160, 157, 157);
+    width: 23%;
+}
+
+.applicake {
+    grid-column: 10/35;
+    grid-row: 16/23;
+    font-size: 145%;
+}
+
+.walter {
+    grid-column: 10/15;
+    grid-row: 30/31;
+    color: #3694bd;
+    font-size: 95%;
+    font-weight: bold;
+}
+
+.comillas {
+    grid-column: 37/38;
+    grid-row: 8/12;
+    width: 120%;
+}
+
+/* ------------------- formulario ------------------  */
+
+.formulario {
+    width: 100%;
+    height: 99vh;
+    background: url(../images/bg_contact.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(45, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+    color: white;
+}
+
+.formulario h2 {
+    grid-column: 10/16;
+    grid-row: 5/6;
+    letter-spacing: 2px;
+    font-weight: 100;
+    position: relative;
+}
+
+.formulario h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: solid 2px white;
+    width: 23%;
+}
+
+.fullnameTxt {
+    grid-column: 10/15;
+    grid-row: 7/8;
+}
+
+.fullnameBox {
+    background: transparent;
+    border: solid 2px white;
+    grid-column: 10/20;
+    grid-row: 8/11;
+}
+
+.emailTxt {
+    grid-column: 10/15;
+    grid-row: 13/14;
+}
+
+.emailBox {
+    background: transparent;
+    border: solid 2px white;
+    grid-column: 10/20;
+    grid-row: 14/17;
+}
+
+.messageTxt {
+    grid-column: 10/15;
+    grid-row: 19/20;
+}
+
+.messageBox {
+    background: transparent;
+    border: solid 2px white;
+    grid-column: 10/38;
+    grid-row: 20/32;
+}
+
+.jujubes {
+    grid-column: 23/38;
+    grid-row: 8/11;
+    font-size: 95%;
+    line-height: 145%;
+}
+
+.linda {
+    grid-column: 23/30;
+    grid-row: 13/17;
+    font-size: 95%;
+    line-height: 145%;
+}
+
+.messageBtn {
+    grid-column: 10/18;
+    grid-row: 34/37;
+    background-color: #3694bd;
+    color: white;
+    border: none;
+}
+
+/* ------------------- footer ------------------  */
+
+footer{
+    height: 120px;
+    background-color: #353f47;
+    color: #4d5a62;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.enlaces3{
+    width: 300px;
+    grid-column: 2/3;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-self: center;
+    text-align: center;
+}
+
+#liServ{
+    position: relative;
+}
+
+#liServ::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 8px;
+    border-right: solid 1px #4d5a62;
+    border-left: solid 1px #4d5a62;
+    height: 50%;
+}
+
+#liHome{
+    position: relative;
+}
+
+#liHome::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 8px;
+    border-right: solid 1px #4d5a62;
+    height: 50%;
+}
+
+#liPort{
+    position: relative;
+}
+
+#liPort::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 8px;
+    border-right: solid 1px #4d5a62;
+    border-left: solid 1px #4d5a62;
+    height: 50%;
+}
+
+#liCont{
+    position: relative;
+}
+
+#liCont::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 8px;
+    border-left: solid 1px #4d5a62;
+    height: 50%;
+}
+
+.enlaces3 a{
+    font-size: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #4d5a62;
+}
+
+footer p{
+    grid-column: 5/6;
+    font-size: 10px;
+    font-weight: bolder;
+    justify-self: end;
+    align-self: center;
+}
+
